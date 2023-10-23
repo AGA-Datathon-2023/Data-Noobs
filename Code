@@ -38,6 +38,22 @@ stargazer(regression, type = "text")
 #check for violation of assumptions plots
 plot(regression)
 
-par(mfrow=c(2,2))
-plot(regression)
-par(mfrow = c(1,1))
+
+#quantitative analysis
+library(summarytools)
+library(dplyr)
+data |> select(Total.State.Awards, Disbursements.to.Date) |>
+  descr()
+
+#qualitative analysis
+freq(data$Program)
+freq(data$Industry)
+freq(data$Region)
+
+#F^2 test 
+0.02036/(1-0.02036) # F^2 = 0.207 Region, Program, Industry, and Disbursement Awards have a moderate effect on Total State Awards.
+
+#power analysis
+library(pwr)
+pwr.f2.test(v=44439, u=20, f2 = 0.0207, sig.level = 0.1, power = NULL) 
+

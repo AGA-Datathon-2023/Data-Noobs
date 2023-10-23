@@ -10,3 +10,34 @@ dummy_variables <- Total.State.Awards ~ Disbursements.to.Date + factor(Region) +
 
 regression <- lm(dummy_variables, data = data)
 summary(regression)
+
+cor(data$Total.State.Awards, data$Disbursements.to.Date)
+#checking OLS Assumptions 
+#Right Variables: assume that we use the right variables
+
+#Linear in the parameters: yes
+
+#Homoscedasticity - no violation, scale - location plot partial violation
+
+#Influential outliers - no influential outliers based on the Residuals vs. Leverage plot 
+
+#Normally distribution errors: no violation Q-Q Residuals line is flat
+
+#Independent errors: Residuals vs. Leverage no violation, data is withing Cook's distance lines
+
+#check for multicollinearity - no violation vif is less than 4
+
+vif(regression)
+install.packages("stargazer")
+library(stargazer)
+regression$coefficients <- regression$coefficients / 1000000 #divide by 1000000 to avoid large numbers 
+regression$residuals <- regression$residuals / 1000000
+regression$fitted.values <- regression$fitted.values / 1000000
+stargazer(regression, type = "text")
+
+#check for violation of assumptions plots
+plot(regression)
+
+par(mfrow=c(2,2))
+plot(regression)
+par(mfrow = c(1,1))

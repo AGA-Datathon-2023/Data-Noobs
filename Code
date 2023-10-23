@@ -1,0 +1,12 @@
+data<-read.csv("C:\\Users\\kriti\\OneDrive\\Desktop\\NY Economic Incentives.csv")
+str(data)
+
+#regression analysis
+library(car)
+
+#recode categorical variables to dummy variables
+dummy_variables <- Total.State.Awards ~ Disbursements.to.Date + factor(Region) + factor(Industry) +factor(Program.Type)
+
+
+regression <- lm(dummy_variables, data = data)
+summary(regression)

@@ -51,7 +51,23 @@ The economic recession triggered by the pandemic had a profound effect on the fe
 Occupations that are both low-paying and heavily segregated by gender, such as child care, are primarily staffed by women, who make up 90% of the workforce in this sector. Women also face a **"motherhood penalty"** because they are more likely to take temporary breaks from their careers or work part-time to care for their children.
 
 Governor Hochul's FY 2023 Budget allocated $7 billion over four years to enhance affordable childcare access, **raising the income eligibility threshold to 300% of the federal poverty level.** This extends access to over half of New York's young children and broadens the options for childcare providers. **In 2023, Governor Hochul launched a pioneering program offering 12 weeks of fully paid parental leave to over 10,000 unrepresented state employees for bonding with a child.** The program may also extend to employees through collective bargaining with state unions.
-reference: https://nysdolreports.com/gwg/2023-gwgreport/
+reference:Dol, N. (2023) 2023 gender wage gap report: Impact of covid on women, NYS DOL Reports. Available at: https://nysdolreports.com/gwg/2023-gwgreport/ (Accessed: 23 October 2023). 
+
+**Small business: 
+****Null rejected, so there is evidence that the average total state awards for small business 
+related programs is less than the threshold. 
+**
+Small businesses play a vital role in bolstering New York City's economy, serving as community cornerstones, job creators, and contributors to neighborhood vitality. **Out of the 200,000 businesses in the city, 98% are considered small, with fewer than 100 employees, and 89% are categorized as very small, with fewer than 20 employees.** These small enterprises employ over 50% of the city's private sector workforce and frequently offer entrepreneurs their first opportunity for economic self-reliance and a path to the middle class.
+
+Small businesses have consistently identified **government regulations** as a significant challenge. City small business owners have repeatedly expressed their frustration with the intricate web of requirements and procedures they must navigate to establish, run, and expand their enterprises. These concerns are well-founded. New York City operates within a complex regulatory framework, encompassing over 6,000 rules and regulations, approximately 250 business-related licenses and permits, and numerous compliance processes designed to uphold legal standards.
+
+The **NYC Business Express Service Team (BEST)** initiative has played a pivotal role in preserving over $22 million for small businesses in New York City by helping them evade fines and violations. **Since its inception, NYC BEST, a no-cost program, has aided over 2,200 diverse businesses throughout the five boroughs.** It provides personalized expert guidance, allowing business owners to effectively address or prevent fines and violations, streamline their interactions with the city government's rules and regulations, and expedite the permit and licensing procedures while also saving time and money.
+
+Small Business Month commences amidst New York City's remarkable economic resurgence. **The city has already reclaimed 99.7% of its pre-pandemic private sector jobs, defying previous forecasts that predicted recovery well into 2025 or beyond, as reported by the New York State Department of Labor (NYSDOL).** Achieving a full 100% recovery, anticipated within weeks, will establish a historic milestone with the highest number of private sector jobs ever recorded across New York City's five boroughs.
+
+References: Lanza, A.J. (2023) NYC Small Business, NYSenate.gov. Available at: https://www.nysenate.gov/newsroom/articles/2023/andrew-j-lanza/nyc-small-business (Accessed: 23 October 2023). 
+Small business first - nyc.gov. Available at: https://www.nyc.gov/assets/smallbizfirst/downloads/pdf/small-business-first-report.pdf (Accessed: 24 October 2023). 
+
 
 # **Limitations**
 

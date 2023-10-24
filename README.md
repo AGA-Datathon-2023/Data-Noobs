@@ -92,14 +92,14 @@ Economic activity is most active in the southwest region which is expected as Ne
 
 # **Results & Interpretations**
 
-In our analysis we assesed how the allocation of awards from the Department of State in New York is influenced by disbursements to date, programs, regions, and industries. The distribution of the funds is not evenly spread among programs, industries, and regions. We also wanted to dive deeper and focus on the impact public funds have in minority/women programs and in small businesses. 
+In our analysis, we assesed how the allocation of awards from the Department of State in New York is influenced by disbursements to date, programs, regions, and industries. The distribution of the funds is not evenly spread among programs, industries, and regions. We also wanted to dive deeper and focus on the impact public funds have in minority/women programs and in small businesses. 
 
 
 **Minority/Women:**
 Using an alpha of 0.05, the entire model is statistically significant, and the null hypothesis is rejected, keeping all else constant. 
 Null rejected, so there is evidence that the average total state awards for minority women related programs is less than the threshold.
 
-In 2021, women in New York earned 88.2 cents for every dollar earned by their male counterparts, a figure notably better than the national average of 81.5 cents. However,the gender pay gap remains significantly wider for women of color, both in New York and across the country. This context highlights the significance of our findings. Specifically, Black or African American women in New York earned only 67.8 cents for every dollar earned by men, while Hispanic and Latina women received just 62.9 cents for each dollar earned by their male counterparts. These disparities underscore the importance of programs supporting minority women-related initiatives.
+In 2021, women in New York earned 88.2 cents for every dollar earned by their male counterparts, a figure notably better than the national average of 81.5 cents. However,the gender pay gap remains significantly wider for women of color, both in New York and across the country. This context highlights the significance of our findings. Specifically, Black or African American women in New York earned only 67.8 cents for every dollar earned by men, while Hispanic and Latino women received just 62.9 cents for each dollar earned by their male counterparts. These disparities underscore the importance of programs supporting minority women-related initiatives.
 
 The economic recession triggered by the pandemic had a profound effect on the female workforce. Between 2019 and 2021, the unemployment rate among women surged, nearly doubling from 4.2% to 8.2%. In 2021, the number of unemployed women exceeded 405,000, which marked a substantial rise compared to 2019 when it stood at 207,000. 
 

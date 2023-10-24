@@ -47,7 +47,7 @@ Tax Programs.
 - Bar Chart
 - Presentation Quality Tables (quantitative & qualitative variables)
 
-![Plot Title](my_Scatterplot.png)
+![Plot Title](Scatterplot.png)
 
 # **Results & Interpretations**
 **Minority/Women:**

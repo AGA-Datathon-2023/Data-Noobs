@@ -57,3 +57,74 @@ freq(data$Region)
 library(pwr)
 pwr.f2.test(v=44439, u=20, f2 = 0.0207, sig.level = 0.1, power = NULL) 
 
+#Analysis Graphs 
+
+#Relationship between Total State Awards vs Region and Industry 
+
+library(ggplot2)
+ggplot(data, aes(x =Industry, y = Total.State.Awards/1000000, fill = Region)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "State Awards by Industry and Program",
+       x = "Industry",
+       y = "Total Agency Benefits Awarded (in millions)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+
+#Relationship between Program Type and Total state awards  in millions
+
+ggplot(data, aes(x = Program.Type, y = Total.State.Awards/1000000)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  xlab("Program Type") +
+  ylab("Total State Awards") +
+  theme_ipsum() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+#Relationship between Disbursements.to.Date  and Total state awards in millions 
+ggplot(data, aes(x = Disbursements.to.Date/1000000, y = Total.State.Awards/100000, color = Disbursements.to.Date)) +
+  geom_point(size = 3) +
+  title("Disbursements.to.Date  VS Total state awards(millions) ")
+  xlab("Disbursements to Date") +
+  ylab("Total State Awards") +
+  scale_color_gradient(low = "blue", high = "red") +  # Define a color gradient
+  theme_ipsum()
+  
+# Hypothesis Testing to check is enough funds were allocated to minority/Women related programs 
+  minority_business_data <- subset(data, Program.Type == "Minority/Women related Programs")
+# Specifying threshold to 546161204.2 since that is the mean of our data set
+  threshold <- 546161204.2 
+  
+
+  t_test_result <- t.test(minority_business_data$Total.State.Awards, mu = threshold, alternative = "less")
+  cat("One-sample t-test results:\n")
+  cat("Sample mean:", mean(minority_business_data$Total.State.Awards), "\n")
+  cat("Test statistic:", t_test_result$statistic, "\n")
+  cat("P-value:", t_test_result$p.value, "\n")
+  
+  # Checking the significance level ( alpha = 0.05) 
+  alpha <- 0.05
+  if (t_test_result$p.value < alpha) {
+    cat("Reject the null hypothesis: There is evidence that the average Total State Awards for Minority/Women related programs is less than the threshold.\n")
+  } else {
+    cat("Fail to reject the null hypothesis: There is not enough evidence that the average Total State Awards for Minority business programs is less than the threshold.\n")
+  }
+  
+  # Hypothesis Testing to check is enough funds were allocated to Small Businesses 
+  small_business_data <- subset(data, Program.Type == "Small Business ")
+  # Specifying threshold to 546161204.2 since that is the mean of our data set
+  threshold <- 546161204.2 
+  
+  
+  t_test_result <- t.test(small_business_data$Total.State.Awards, mu = threshold, alternative = "less")
+  cat("One-sample t-test results:\n")
+  cat("Sample mean:", mean(small_business_data$Total.State.Awards), "\n")
+  cat("Test statistic:", t_test_result$statistic, "\n")
+  cat("P-value:", t_test_result$p.value, "\n")
+  
+  # Checking the significance level ( alpha = 0.05) 
+  alpha <- 0.05
+  if (t_test_result$p.value < alpha) {
+    cat("Reject the null hypothesis: There is evidence that the average Total State Awards for Small Business  related programs is less than the threshold.\n")
+  } else {
+    cat("Fail to reject the null hypothesis: There is not enough evidence that the average Total State Awards for Small business programs is less than the threshold.\n")
+  }

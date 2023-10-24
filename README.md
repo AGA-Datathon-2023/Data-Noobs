@@ -96,9 +96,9 @@ In our analysis we assesed how the allocation of awards from the Department of S
 
 
 **Minority/Women:**
-Using an alpha of 0.05, the entire model is statistically significant, and the null hypothesis is rejected, all else constant. Amount% of the variance in total state awards is explained by program, region, etc. For every interpretation we hold all else constant.
-
+Using an alpha of 0.05, the entire model is statistically significant, and the null hypothesis is rejected, keeping all else constant. 
 Null rejected, so there is evidence that the average total state awards for minority women related programs is less than the threshold.
+
 In 2021, women in New York earned 88.2 cents for every dollar earned by their male counterparts, a figure notably better than the national average of 81.5 cents. However,the gender pay gap remains significantly wider for women of color, both in New York and across the country. This context highlights the significance of our findings. Specifically, Black or African American women in New York earned only 67.8 cents for every dollar earned by men, while Hispanic and Latina women received just 62.9 cents for each dollar earned by their male counterparts. These disparities underscore the importance of programs supporting minority women-related initiatives.
 
 The economic recession triggered by the pandemic had a profound effect on the female workforce. Between 2019 and 2021, the unemployment rate among women surged, nearly doubling from 4.2% to 8.2%. In 2021, the number of unemployed women exceeded 405,000, which marked a substantial rise compared to 2019 when it stood at 207,000. 
@@ -108,7 +108,7 @@ Occupations that are both low-paying and heavily segregated by gender, such as e
 Governor Hochul's FY 2023 Budget allocated $7 billion over four years to enhance affordable childcare access,raising the income eligibility threshold to 300% of the federal poverty level. This extends access to over half of New York's young children and broadens the options for childcare providers. In 2023, Governor Hochul launched a pioneering program offering 12 weeks of fully paid parental leave to over 10,000 unrepresented state employees for bonding with a child. The program may also extend to employees through collective bargaining with state unions.
 
 **Small business:**
-Using an alpha of 0.05, the entire model is statistically significant, and the null hypothesis is rejected, all else constant. Amount% of the variance in total state awards is explained by program, region, etc. For every interpretation we hold all else constant.
+Using an alpha of 0.05, the entire model is statistically significant, and the null hypothesis is rejected, keeping all else constant. 
 
 Small businesses are the backbone of New York City's economy. Out of the 200,000 businesses in the city, 98% are considered small, with fewer than 100 employees, and 89% are categorized as very small, with fewer than 20 employees. These small enterprises employ over 50% of the city's private sector workforce and frequently offer entrepreneurs their first opportunity for economic self-reliance and a path to the middle class. 
 

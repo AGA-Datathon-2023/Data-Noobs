@@ -92,7 +92,6 @@ Economic activity is most active in the southwest region which is expected as Ne
 
 ![image](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/feabf139-f1c4-47a3-ae73-3517e7570633)
 
-![image](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/da49c312-734a-41aa-abd4-8d76c56e4255)
 
 
 

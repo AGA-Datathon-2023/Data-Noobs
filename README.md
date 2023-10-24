@@ -48,7 +48,7 @@ Tax Programs.
 - Presentation Quality Tables (quantitative & qualitative variables)
 
 # **Results & Interpretations**
-**Minority women:**
+**Minority/Women:**
 **Null rejected, so there is evidence that the average total state awards for minority women related programs is less than the threshold.**
 In 2021, women in New York earned **88.2 cents** for every dollar earned by their male counterparts, which marked a notably smaller wage disparity compared to the national average of 81.5 cents. However, the gender pay gap remains significantly wider for women of color, both in New York and across the country. Specifically, Black or African American women in New York earned only 67.8 cents for every dollar earned by men, while Hispanic and Latina women received just 62.9 cents for each dollar earned by their male counterparts.
 The economic recession triggered by the pandemic had a profound effect on the female workforce. **Between 2019 and 2021, the unemployment rate among women surged, nearly doubling from 4.2% to 8.2%. In 2021, the number of unemployed women exceeded 405,000, which marked a substantial rise compared to 2019 when it stood at 207,000.**

@@ -49,12 +49,12 @@ Tax Programs.
 ![Plot Title](Scatterplot.png)
 
 
-The scatterplot shows a relationship between total state awards and disbursement to date. There seems to be weak correlation betweeen them as the data points are not closely grouped.
+There is weak correlation betweeen them as the data points are not closely grouped.
 
 ![standardized residuals and leverage scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/90f92091-0146-40f3-937c-ce464728b757)
 
 
-If any point in this plot falls outside of Cook’s distance (the dashed lines) then it is considered to be an influential observation.In the example above, we can see that nothing falls outside of the dashed line. This means there are not any influential points in our regression model.
+All of the data points are within Cook's distance lines which indicates that there are no influential points in our model.
 
 ![fitted values and standardized residuals scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/06f323f1-0c74-4ea7-a7a8-a253c23ed7a3)
 
@@ -69,17 +69,17 @@ This Q-Q normal plot shows that the residuals are normally distributed. It’s g
 ![fitted values and residuals scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/babefcd6-7ef0-4975-add0-ac8e0e75dd4b)
 
 
-Here we see that linearity seems to hold reasonably well, as the red line is close to the dashed line. We can also note the heteroskedasticity: as we move to the right on the x-axis, the spread of the residuals seems to be increasing. Finally, points 807 and 120090 may be outliers, with large residual values.
+Linearity holds reasonably well, as the red line is close to the dashed line. We can also note the heteroscedasticity: as we move to the right on the x-axis, the spread of the residuals seems to be increasing. Finally, points 807 and 120090 may be outliers, with large residual values.
 
 
-- Bar Chart
+- Bar Plot
 
 
-![state award and region bar chart](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/47d47da9-fd55-4b74-bda5-8aebf68fde0e)
+![Plot Title](BarPlot.png)
 
 
 
-The bar chart shows a relationship between state awards and regions. It can be seen that the southwest region received the maximum amount of state allocated awards. On the other hand, northwest and southeast regions consistently received lesser awards. 
+Economic activity is most active in the southwest region which is expected as New York City is more densely populated compared to the rest of the state. Public Administration programs receive the most funidng in the southwest and the rest of the regions.
 
 - Presentation Quality Tables (quantitative & qualitative variables)
 

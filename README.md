@@ -20,7 +20,8 @@ We used the “Database of Economic Incentives” from data.gov. It shows resour
 
 **Original Dataset:** https://catalog.data.gov/dataset/database-of-economic-incentives 
 
-**Cleaned Data:** [Download CSV File](path/to/your/csv/NYEconomicIncentives.csv)
+**Cleaned Data:** [[Download CSV File](path/to/your/csv/NY%20Economic%20Incentives.csv)]
+(https://github.com/AGA-Datathon-2023/Data-Noobs/blob/main/NY%20Economic%20Incentives.csv)
 
 **Description of Variables**
 - The ‘Program’ variable consists of various programs that received state funding. Due to the vast amount of programs, we categorized them into five groups: 

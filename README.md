@@ -46,7 +46,7 @@ Tax Programs.
 
 - Scatterplot
 
-![Total state award and disbursement to date scatterplot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/dd02e975-5531-4d8b-997e-e0cc5855ab68)
+![Plot Title](Scatterplot.png)
 
 
 The scatterplot shows a relationship between total state awards and disbursement to date. There seems to be weak correlation betweeen them as the data points are not closely grouped.

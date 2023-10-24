@@ -43,29 +43,41 @@ Tax Programs.
 
 
 # **Data Viasualizations**
+
 - Scatterplot
+
 ![Total state award and disbursement to date scatterplot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/dd02e975-5531-4d8b-997e-e0cc5855ab68)
+
 
 The scatterplot shows a relationship between total state awards and disbursement to date. There seems to be weak correlation betweeen them as the data points are not closely grouped.
 
 ![standardized residuals and leverage scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/90f92091-0146-40f3-937c-ce464728b757)
 
+
 If any point in this plot falls outside of Cook’s distance (the dashed lines) then it is considered to be an influential observation.In the example above, we can see that nothing falls outside of the dashed line. This means there are not any influential points in our regression model.
 
 ![fitted values and standardized residuals scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/06f323f1-0c74-4ea7-a7a8-a253c23ed7a3)
+
 
 In this scale-location plot, the residuals are spread closely near the red line, which is horizontal. Points 807 and 120090 are the outliers. In this plot, the assumption of equal variance (homoscedasticity) is good as the horizontal line has equally (randomly) spread points. 
 
 ![standardize residuals and theoretical quantiles scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/7ab75e0f-6e31-4541-8e05-270ff8330722)
 
+
 This Q-Q normal plot shows that the residuals are normally distributed. It’s good as the residuals are lined well on the straight dashed line.
 
 ![fitted values and residuals scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/babefcd6-7ef0-4975-add0-ac8e0e75dd4b)
 
+
 Here we see that linearity seems to hold reasonably well, as the red line is close to the dashed line. We can also note the heteroskedasticity: as we move to the right on the x-axis, the spread of the residuals seems to be increasing. Finally, points 807 and 120090 may be outliers, with large residual values.
 
+
 - Bar Chart
+
+
 ![state award and region bar chart](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/47d47da9-fd55-4b74-bda5-8aebf68fde0e)
+
+
 
 The bar chart shows a relationship between state awards and regions. It can be seen that the southwest region received the maximum amount of state allocated awards. On the other hand, northwest and southeast regions consistently received lesser awards. 
 

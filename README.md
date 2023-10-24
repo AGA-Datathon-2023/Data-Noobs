@@ -90,6 +90,9 @@ Economic activity is most active in the southwest region which is expected as Ne
 
 - Presentation Quality Tables (quantitative & qualitative variables)
 
+![image](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/feabf139-f1c4-47a3-ae73-3517e7570633)
+
+
 # **Results & Interpretations**
 
 In our analysis, we assesed how the allocation of awards from the Department of State in New York is influenced by disbursements to date, programs, regions, and industries. The distribution of the funds is not evenly spread among programs, industries, and regions. We also wanted to dive deeper and focus on the impact public funds have in minority/women programs and in small businesses. 

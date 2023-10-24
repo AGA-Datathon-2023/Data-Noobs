@@ -51,6 +51,7 @@ The economic recession triggered by the pandemic had a profound effect on the fe
 Occupations that are both low-paying and heavily segregated by gender, such as child care, are primarily staffed by women, who make up 90% of the workforce in this sector. Women also face a **"motherhood penalty"** because they are more likely to take temporary breaks from their careers or work part-time to care for their children.
 
 Governor Hochul's FY 2023 Budget allocated $7 billion over four years to enhance affordable childcare access, **raising the income eligibility threshold to 300% of the federal poverty level.** This extends access to over half of New York's young children and broadens the options for childcare providers. **In 2023, Governor Hochul launched a pioneering program offering 12 weeks of fully paid parental leave to over 10,000 unrepresented state employees for bonding with a child.** The program may also extend to employees through collective bargaining with state unions.
+reference: https://nysdolreports.com/gwg/2023-gwgreport/
 
 # **Limitations**
 

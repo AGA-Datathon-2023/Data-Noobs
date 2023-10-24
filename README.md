@@ -16,7 +16,10 @@ We used Excel to clen the data,select our variables, and create presentation qua
 # **Data Extracting**
 We used the “Database of Economic Incentives” from data.gov. It shows resources for businesses and programs seeking public and private funding. We focus on the funds the Department of State receives and allocates in different programs within New York State. We also looked at industry and occupation data from the Department of Labor within New York State.
 
-**Industry & Occupation Data:** https://dol.ny.gov/occupational-and-industry-data
+**Industry & Occupation Data:** 
+- https://dol.ny.gov/occupational-and-industry-data
+- Lanza, A.J. (2023) NYC Small Business, NYSenate.gov: https://www.nysenate.gov/newsroom/articles/2023/andrew-j-lanza/nyc-small-business 
+- Small business first - nyc.gov: https://www.nyc.gov/assets/smallbizfirst/downloads/pdf/small-business-first-report.pdf 
 
 **Original Dataset:** https://catalog.data.gov/dataset/database-of-economic-incentives 
 
@@ -63,8 +66,7 @@ The **NYC Business Express Service Team (BEST)** initiative has played a pivotal
 
 Small Business Month commences amidst New York City's remarkable economic resurgence. **The city has already reclaimed 99.7% of its pre-pandemic private sector jobs, defying previous forecasts that predicted recovery well into 2025 or beyond, as reported by the New York State Department of Labor (NYSDOL).** Achieving a full 100% recovery, anticipated within weeks, will establish a historic milestone with the highest number of private sector jobs ever recorded across New York City's five boroughs.
 
-References: Lanza, A.J. (2023) NYC Small Business, NYSenate.gov. Available at: https://www.nysenate.gov/newsroom/articles/2023/andrew-j-lanza/nyc-small-business (Accessed: 23 October 2023). 
-Small business first - nyc.gov. Available at: https://www.nyc.gov/assets/smallbizfirst/downloads/pdf/small-business-first-report.pdf (Accessed: 24 October 2023). 
+
 
 
 # **Limitations**

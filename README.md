@@ -42,9 +42,8 @@ Tax Programs.
 - Presentation Quality Tables (quantitative & qualitative variables)
 
 # **Results & Interpretations**
-Minority women: 
-**Null rejected, so there is evidence that the average total state awards for minority women related programs is less than the threshold. 
-**
+**Minority women:**
+**Null rejected, so there is evidence that the average total state awards for minority women related programs is less than the threshold.**
 In 2021, women in New York earned **88.2 cents** for every dollar earned by their male counterparts, which marked a notably smaller wage disparity compared to the national average of 81.5 cents. However, the gender pay gap remains significantly wider for women of color, both in New York and across the country. Specifically, Black or African American women in New York earned only 67.8 cents for every dollar earned by men, while Hispanic and Latina women received just 62.9 cents for each dollar earned by their male counterparts.
 The economic recession triggered by the pandemic had a profound effect on the female workforce. **Between 2019 and 2021, the unemployment rate among women surged, nearly doubling from 4.2% to 8.2%. In 2021, the number of unemployed women exceeded 405,000, which marked a substantial rise compared to 2019 when it stood at 207,000.**
 
@@ -53,10 +52,9 @@ Occupations that are both low-paying and heavily segregated by gender, such as c
 Governor Hochul's FY 2023 Budget allocated $7 billion over four years to enhance affordable childcare access, **raising the income eligibility threshold to 300% of the federal poverty level.** This extends access to over half of New York's young children and broadens the options for childcare providers. **In 2023, Governor Hochul launched a pioneering program offering 12 weeks of fully paid parental leave to over 10,000 unrepresented state employees for bonding with a child.** The program may also extend to employees through collective bargaining with state unions.
 reference:Dol, N. (2023) 2023 gender wage gap report: Impact of covid on women, NYS DOL Reports. Available at: https://nysdolreports.com/gwg/2023-gwgreport/ (Accessed: 23 October 2023). 
 
-**Small business: 
-****Null rejected, so there is evidence that the average total state awards for small business 
-related programs is less than the threshold. 
-**
+**Small business:**
+**Null rejected, so there is evidence that the average total state awards for small business 
+related programs is less than the threshold**
 Small businesses play a vital role in bolstering New York City's economy, serving as community cornerstones, job creators, and contributors to neighborhood vitality. **Out of the 200,000 businesses in the city, 98% are considered small, with fewer than 100 employees, and 89% are categorized as very small, with fewer than 20 employees.** These small enterprises employ over 50% of the city's private sector workforce and frequently offer entrepreneurs their first opportunity for economic self-reliance and a path to the middle class.
 
 Small businesses have consistently identified **government regulations** as a significant challenge. City small business owners have repeatedly expressed their frustration with the intricate web of requirements and procedures they must navigate to establish, run, and expand their enterprises. These concerns are well-founded. New York City operates within a complex regulatory framework, encompassing over 6,000 rules and regulations, approximately 250 business-related licenses and permits, and numerous compliance processes designed to uphold legal standards.

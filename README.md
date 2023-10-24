@@ -7,8 +7,11 @@
 - Nabila Nishat Raisa
 
 # **Topic**
+Allocation of public invenstments within New York State with a focus on minority/women programs and small businesses.
 
 # **Abstract**
+
+In today's competitive market, equal distribution of public funds among industries, programs, and regions is vital to make well-informed decisions that promote economic growth and optimize resource allocation. A multiple OLS regression was performed to assess how public awards are influenced by regions, programs, and industries. We performed hypothesis testing to further examine the impact of public funding on minority/women programs and small businesses. 
 
 # **Documentation**
 We used Excel to clen the data,select our variables, and create presentation quality tables for our quantitative and qualitative variables. We used R for our statistical analysis and visualizations. 
@@ -116,6 +119,10 @@ Small Business Month commences amidst New York City's remarkable economic resurg
 
 # **Limitations**
 
+Limitation include the outliers that need to be removed. The findings are not substantively significant. Disbursements to date and public investments are correlated but may not necessarily have a meaningful connection.
+
 # **Conclusion**
+
+This analysis confirms that public awards are not evenly spread among industries. We recommend further analysis into the allocation strategies in New York to promote economic diversity. Specifically, adding a variable to measure the job creation impact of funded programs by race and sex. This can help the Department of State in New York to prioritize sectors, that they may not be currently well represented, with the most job-creating potential and long-term boost of the economy. 
 
 

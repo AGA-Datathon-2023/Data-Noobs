@@ -16,10 +16,10 @@ We used Excel to clen the data,select our variables, and create presentation qua
 # **Data Extracting**
 We used the “Database of Economic Incentives” from data.gov. It shows resources for businesses and programs seeking public and private funding. We focus on the funds the Department of State receives and allocates in different programs within New York State. We also looked at industry and occupation data from the Department of Labor within New York State.
 
-**Industry & Occupation Data:** 
-- https://dol.ny.gov/occupational-and-industry-data
-- Lanza, A.J. (2023) NYC Small Business, NYSenate.gov: https://www.nysenate.gov/newsroom/articles/2023/andrew-j-lanza/nyc-small-business 
-- Small business first - nyc.gov: https://www.nyc.gov/assets/smallbizfirst/downloads/pdf/small-business-first-report.pdf 
+**Industry & Occupation Data:** https://dol.ny.gov/occupational-and-industry-data
+
+**Lanza, A.J. (2023) NYC Small Business NYSenate.gov:** https://www.nysenate.gov/newsroom/articles/2023/andrew-j-lanza/nyc-small-business 
+**Small business first - nyc.gov:** https://www.nyc.gov/assets/smallbizfirst/downloads/pdf/small-business-first-report.pdf 
 
 **Original Dataset:** https://catalog.data.gov/dataset/database-of-economic-incentives 
 

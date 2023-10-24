@@ -84,6 +84,10 @@ Economic activity is most active in the southwest region which is expected as Ne
 - Presentation Quality Tables (quantitative & qualitative variables)
 
 # **Results & Interpretations**
+
+In our analysis we assesed how the allocation of awards from the Department of State in New York is influenced by disbursements to date, programs, regions, and industries. The distribution of the funds is not evenly spread among programs, industries, and regions. We also wanted to dive deeper and focus on the impact public funds have in minority/women programs and in small businesses. 
+
+
 **Minority/Women:**
 Using an alpha of 0.05, the entire model is statistically significant, and the null hypothesis is rejected, all else constant. Amount% of the variance in total state awards is explained by program, region, etc. For every interpretation we hold all else constant.
 

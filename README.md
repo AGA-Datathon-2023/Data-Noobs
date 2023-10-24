@@ -44,10 +44,10 @@ Tax Programs.
 
 # **Data Viasualizations**
 - Scatterplot
-![WhatsApp Image 2023-10-23 at 9 53 20 PM](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/03af36d2-72a2-44c1-a186-cf3fea7919bc)
-
 - Bar Chart
 - Presentation Quality Tables (quantitative & qualitative variables)
+
+![Plot Title](my_Scatterplot.png)
 
 # **Results & Interpretations**
 **Minority/Women:**

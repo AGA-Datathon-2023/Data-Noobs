@@ -1,12 +1,14 @@
 # Data-Noobs
 
 # **Team Members**
-- Aatsend Lkhagvadorj
-- Elina Paraschou
-- Kritika Goyal
-- Nabila Nishat Raisa
+
+- Elina Paraschou, MS Analytics at American University
+- Kritika Goyal, MS Analytics at American University
+- Nabila Nishat Raisa,  MS Analytics at American University
+- Aatsend Lkhagvadorj, MS Analytics at American University
 
 # **Topic**
+
 Allocation of public invenstments within New York State with a focus on minority/women programs and small businesses.
 
 # **Abstract**
@@ -14,9 +16,11 @@ Allocation of public invenstments within New York State with a focus on minority
 In today's competitive market, equal distribution of public funds among industries, programs, and regions is vital to make well-informed decisions that promote economic growth and optimize resource allocation. A multiple OLS regression was performed to assess how public awards are influenced by regions, programs, and industries. We performed hypothesis testing to further examine the impact of public funding on minority/women programs and small businesses. 
 
 # **Documentation**
-We used Excel to clen the data,select our variables, and create presentation quality tables for our quantitative and qualitative variables. We used R for our statistical analysis and visualizations. 
+
+We used Excel to clean the data, recode our variables, and create summary tables with key metrics for our quantitative and qualitative variables. We used R for our statistical analysis and visualizations. 
 
 # **Data Extracting**
+
 We used the “Database of Economic Incentives” from data.gov. It shows resources for businesses and programs seeking public and private funding. We focus on the funds the Department of State receives and allocates in different programs within New York State. We also looked at industry and occupation data from the Department of Labor within New York State.
 
 **Industry & Occupation Data:** https://dol.ny.gov/occupational-and-industry-data

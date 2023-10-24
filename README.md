@@ -20,7 +20,9 @@ We used the “Database of Economic Incentives” from data.gov. It shows resour
 
 **Lanza, A.J. (2023) NYC Small Business NYSenate.gov:** https://www.nysenate.gov/newsroom/articles/2023/andrew-j-lanza/nyc-small-business 
 
-**Small business first - nyc.gov:** https://www.nyc.gov/assets/smallbizfirst/downloads/pdf/small-business-first-report.pdf 
+**Small business first - nyc.gov:** https://www.nyc.gov/assets/smallbizfirst/downloads/pdf/small-business-first-report.pdf
+
+**Dol, N. (2023) 2023 gender wage gap report: Impact of covid on women, NYS DOL Reports**:https://nysdolreports.com/gwg/2023-gwgreport/
 
 **Original Dataset:** https://catalog.data.gov/dataset/database-of-economic-incentives 
 
@@ -54,7 +56,6 @@ The economic recession triggered by the pandemic had a profound effect on the fe
 Occupations that are both low-paying and heavily segregated by gender, such as child care, are primarily staffed by women, who make up 90% of the workforce in this sector. Women also face a **"motherhood penalty"** because they are more likely to take temporary breaks from their careers or work part-time to care for their children.
 
 Governor Hochul's FY 2023 Budget allocated $7 billion over four years to enhance affordable childcare access, **raising the income eligibility threshold to 300% of the federal poverty level.** This extends access to over half of New York's young children and broadens the options for childcare providers. **In 2023, Governor Hochul launched a pioneering program offering 12 weeks of fully paid parental leave to over 10,000 unrepresented state employees for bonding with a child.** The program may also extend to employees through collective bargaining with state unions.
-reference:Dol, N. (2023) 2023 gender wage gap report: Impact of covid on women, NYS DOL Reports. Available at: https://nysdolreports.com/gwg/2023-gwgreport/ (Accessed: 23 October 2023). 
 
 **Small business:**
 **Null rejected, so there is evidence that the average total state awards for small business 

@@ -20,13 +20,13 @@ We used the “Database of Economic Incentives” from data.gov. It shows resour
 
 **Original Dataset:** https://catalog.data.gov/dataset/database-of-economic-incentives 
 
-**Cleaned Data:** [[Download CSV File](path/to/your/csv/NY%20Economic%20Incentives.csv)]
-(https://github.com/AGA-Datathon-2023/Data-Noobs/blob/main/NY%20Economic%20Incentives.csv)
+**Cleaned Data:** (https://github.com/AGA-Datathon-2023/Data-Noobs/blob/main/NY%20Economic%20Incentives.csv)
 
 **Description of Variables**
-- The ‘Program’ variable consists of various programs that received state funding. Due to the vast amount of programs, we categorized them into five groups: 
-- 'Region' refers to the geographical locations withing New York State. We categirized it to:
-- 'Industry' includes multiple sectors that programs operate in. We categorized it to:
+- The ‘Program’ variable consists of various programs that received state funding. Due to the vast amount of programs, we categorized them into: Agriculture, Business, Development, Direct Federal Funds, Employment, Environment, Federal Department of Defense, Innovation/Education, Minority/Women related Programs, Misc.,Small Business, and
+Tax Programs.
+- 'Region' refers to the geographical locations withing New York State. We categirized it to: Northeast, Northwest, Southeast, and Southwest.
+- 'Industry' includes multiple sectors that programs operate in. We categorized it to: Education Arts, Food Services, Manufacturing, Professional Services, and Public Administration programs.
 - 'Total State Awards' is the total Department of State assistance projects received.
 - 'Disbursements to Date' is the amount the projects have received up to date. 
 

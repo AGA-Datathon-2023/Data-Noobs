@@ -31,9 +31,9 @@ Tax Programs.
 - 'Disbursements to Date' is the amount the projects have received up to date. 
 
 # **Statistical Modeling**
-Multiple Regression Analysis (MLR)
-Power Analysis
-Hypothesis Testing
+- Multiple Regression Analysis (MLR)
+- Power Analysis
+- Hypothesis Testing
 
 
 # **Data Viasualizations**

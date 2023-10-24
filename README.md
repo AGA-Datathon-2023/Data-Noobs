@@ -1,10 +1,10 @@
 # Data-Noobs
 
 # **Team Members**
-Aatsend Lkhagvadorj
-Elina Paraschou
-Kritika Goyal
-Nabila Nishat Raisa
+## Aatsend Lkhagvadorj
+## Elina Paraschou
+## Kritika Goyal
+## Nabila Nishat Raisa
 
 # **Topic**
 

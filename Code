@@ -81,13 +81,13 @@ ggplot(data, aes(x = Program.Type, y = Total.State.Awards/1000000)) +
   theme(axis.text.x = element_text(angle = 45, hjust = 1))
 
 #Relationship between Disbursements.to.Date  and Total state awards in millions 
-ggplot(data, aes(x = Disbursements.to.Date/1000000, y = Total.State.Awards/100000, color = Disbursements.to.Date)) +
+ggplot(data, aes(x = Disbursements.to.Date / 1000000, y = Total.State.Awards / 100000, color = Disbursements.to.Date)) +
   geom_point(size = 3) +
-  title("Disbursements.to.Date  VS Total state awards(millions) ")
-  xlab("Disbursements to Date") +
-  ylab("Total State Awards") +
-  scale_color_gradient(low = "blue", high = "red") +  # Define a color gradient
-  theme_ipsum()
+  ggtitle("Disbursements to Date VS Total State Awards (millions)") +
+  labs(x = "Disbursements to Date (millions)", y = "Total State Awards (millions)") +
+  scale_color_gradient(low = "blue", high = "red") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
   
 # Hypothesis Testing to check is enough funds were allocated to minority/Women related programs 
   minority_business_data <- subset(data, Program.Type == "Minority/Women related Programs")

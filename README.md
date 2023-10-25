@@ -53,9 +53,6 @@ Tax Programs.
 
 - Scatterplot
 
-![Plot Title](Scatterplot.png)
-
-
 There is weak correlation betweeen them as the data points are not closely grouped.
 
 ![standardized residuals and leverage scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/90f92091-0146-40f3-937c-ce464728b757)
@@ -82,17 +79,9 @@ Linearity holds reasonably well, as the red line is close to the dashed line. We
 - Bar Plot
 
 
-![Plot Title](BarPlot.png)
-
-
-
 Economic activity is most active in the southwest region which is expected as New York City is more densely populated compared to the rest of the state. Public Administration programs receive the most funidng in the southwest and the rest of the regions.
 
 - Presentation Quality Tables (quantitative & qualitative variables)
-
-![image](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/feabf139-f1c4-47a3-ae73-3517e7570633)
-
-
 
 
 # **Results & Interpretations**

@@ -2,10 +2,10 @@
 
 # **Team Members**
 
-- Elina Paraschou, MS Analytics at American University
-- Kritika Goyal, MS Analytics at American University
-- Nabila Nishat Raisa,  MS Analytics at American University
-- Aatsend Lkhagvadorj, MS Analytics at American University
+- Elina Paraschou, MS Analytics at American University, +1 (901) 728-8543
+- Kritika Goyal, MS Analytics at American University, +1 (202) 790-2039
+- Nabila Nishat Raisa,  MS Analytics at American University, +1 (202) 699-4162
+- Aatsend Lkhagvadorj, MS Analytics at American University, +976 8908 9440
 
 # **Topic**
 

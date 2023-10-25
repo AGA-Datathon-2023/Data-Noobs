@@ -107,11 +107,16 @@ Based on the regression analysis, we interpreted the significance of the Region,
 In our analysis, the following data about minority/women related program has been collected and subsequent results have been generated: 
 Frequency: 4
 Threshold = 546161204.2  (mean of the dataset)
-We conducted a hypothesis testing to check if enough funds were allocated to minority/Women related programs. The test statistics, t-test was conducted. The result of the test statistics = -22840.01 and P value= 0.00000000000009254474
-the significance level,  alpha <- 0.05,
+We conducted a hypothesis testing to check if enough funds were allocated to minority/Women related programs.
+To understand that we did the following hypothesis test: 
+Null Hypothesis: There is not enough evidence that the average Total State Awards for Minority/Women related programs is less than the threshold
+Alternative Hypothesis: There is evidence that the average Total State Awards for Minority/Women related programs is less than the threshold
+to conduct the test, we calculated the test statistics using t test. 
+The test statistics, t-test was conducted. The result of the test statistics = -22840.01 and P value= 0.00000000000009254474
+in this test, the significance level,  alpha <- 0.05,
 in statistical rule, as the p.value < alpha, we were able to reject the null hypothesis: There is evidence that the average Total State Awards for Minority/Women related programs is less than the threshold.
 
-Women hold a significant portion of 48.8% in the labor market in New York. However,in 2021, women in New York earned 88.2 cents for every dollar earned by their male counterparts, a figure notably better than the national average of 81.5 cents. The gender pay gap remains significantly wider for women of color, both in New York and across the country. This context highlights the significance of our findings, which are the funding disparities women and minoritties face in the labor market. Specifically, Black or African American women in New York earned only 67.8 cents for every dollar earned by men, while Hispanic and Latino women received just 62.9 cents for each dollar earned by their male counterparts. These disparities underscore the importance of programs supporting minority women-related initiatives.
+Based on our analysis, it can be derived that minority women, an already suffering group in the socioeconomic structure, are receiving less awards. Women hold a significant portion of 48.8% in the labor market in New York. However,in 2021, women in New York earned 88.2 cents for every dollar earned by their male counterparts, a figure notably better than the national average of 81.5 cents. As there exists a wage gap based on the gender, it may benefit women by receiving more government aid. The gender pay gap remains significantly wider for women of color, both in New York and across the country. This context highlights the significance of our findings, which are the funding disparities women and minoritties face in the labor market. Specifically, Black or African American women in New York earned only 67.8 cents for every dollar earned by men, while Hispanic and Latino women received just 62.9 cents for each dollar earned by their male counterparts. These disparities underscore the importance of programs supporting minority women-related initiatives.
 
 Occupations that are both low-paying and heavily segregated by gender, such as education, are primarily staffed by women, who make up 90% of the workforce in this sector. Women are more likely to take temporary breaks from their careers or work part-time to care for their children. These circumstances can directly impact their income and job opportunities.
 
@@ -120,6 +125,15 @@ New York's Governor Hochul is committed to create more opportunities for women i
 **Small business:**
 In our analysis, the following data about small business related program has been collected and subsequent results have been generated: 
 Frequency: 40887
+Threshold: 546161204.2  (mean of the dataset)
+We conducted a hypothesis testing to check if enough funds were allocated to small business related programs.
+To understand that we did the following hypothesis test: 
+Null Hypothesis: There is not enough evidence that the average Total State Awards for Small Business  related programs is less than the threshold
+Alternative Hypothesis: There is evidence that the average Total State Awards for Small Business  related programs is less than the threshold
+to conduct the test, we calculated the test statistics using t test. 
+The test statistics, t-test was conducted. The result of the test statistics = -22840.01 and P value= 0.00000000000009254474
+in this test, the significance level,  alpha <- 0.05,
+in statistical rule, as the p.value < alpha, we were able to reject the null hypothesis: There is evidence that the average Total State Awards for Small Business  related programs is less than the threshold
 
 In our analysis we found that the most economic activity takes place in the Southwest part of New York. In fact,small businesses are the backbone of New York City's economy. Out of the 200,000 businesses in the city, 98% are considered small, with fewer than 100 employees, and 89% are categorized as very small, with fewer than 20 employees. These small enterprises employ over 50% of the city's private sector workforce and frequently offer entrepreneurs their first opportunity for economic self-reliance and a path to the middle class. 
 

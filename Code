@@ -1,4 +1,4 @@
-data<-read.csv("C:\\Users\\kriti\\OneDrive\\Desktop\\Data Noobs\\NY Economic Incentives.csv")
+data<-read.csv("NY Economic Incentives.csv")
 str(data)
 
 #outliers model
@@ -196,19 +196,17 @@ z_score <- (sample_mean - population_mean) / standard_error
 critical_value <- qnorm(1 - alpha/2)
 
 # Perform the z-test and check if it's statistically significant
-p_value <- 2 * (1 - pnorm(abs(z_score))
+p_value <- 2 * (1 - pnorm(abs(z_score)))
+# Print results
+cat("Sample Mean:", sample_mean, "\n")
+cat("Z-Score:", z_score, "\n")
+cat("Critical Value:", critical_value, "\n")
+cat("P-Value:", p_value, "\n")
                 
-                # Print results
-                cat("Sample Mean:", sample_mean, "\n")
-                cat("Z-Score:", z_score, "\n")
-                cat("Critical Value:", critical_value, "\n")
-                cat("P-Value:", p_value, "\n")
-                
-                
-                if (abs(z_score) > critical_value) {
-                  cat("Reject the null hypothesis: There is evidence that the average Total State Awards for Small Business-related programs is significantly less than the threshold.\n")
-                } else {
-                  cat("Fail to reject the null hypothesis: There is not enough evidence that the average Total State Awards for Small Business programs is significantly less than the threshold.\n")
-                }
-                
+if (abs(z_score) > critical_value) {
+  cat("Reject the null hypothesis: There is evidence that the average Total State Awards for Small Business-related programs is significantly less than the threshold.\n")
+} else {cat("Fail to reject the null hypothesis: There is not enough evidence that the average Total State Awards for Small Business programs is significantly less than the threshold.\n")
+    }
+
+
                 

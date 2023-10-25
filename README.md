@@ -112,7 +112,7 @@ To understand that we did the following hypothesis test:
 Null Hypothesis: There is not enough evidence that the average Total State Awards for Minority/Women related programs is less than the threshold
 Alternative Hypothesis: There is evidence that the average Total State Awards for Minority/Women related programs is less than the threshold
 to conduct the test, we calculated the test statistics using t test. 
-The test statistics, t-test was conducted. The result of the test statistics = -22840.01 and P value= 0.00000000000009254474
+The test statistics, t-test was conducted. The result of the test statistics = -22840.01 and P value< 0.01
 in this test, the significance level,  alpha <- 0.05,
 in statistical rule, as the p.value < alpha, we were able to reject the null hypothesis: There is evidence that the average Total State Awards for Minority/Women related programs is less than the threshold.
 
@@ -131,7 +131,7 @@ To understand that we did the following hypothesis test:
 Null Hypothesis: There is not enough evidence that the average Total State Awards for Small Business  related programs is less than the threshold
 Alternative Hypothesis: There is evidence that the average Total State Awards for Small Business  related programs is less than the threshold
 to conduct the test, we calculated the test statistics using t test. 
-The test statistics, t-test was conducted. The result of the test statistics = -22840.01 and P value= 0.00000000000009254474
+The test statistics, t-test was conducted. The result of the test statistics = -22840.01 and P value< 0.01
 in this test, the significance level,  alpha <- 0.05,
 in statistical rule, as the p.value < alpha, we were able to reject the null hypothesis: There is evidence that the average Total State Awards for Small Business  related programs is less than the threshold
 

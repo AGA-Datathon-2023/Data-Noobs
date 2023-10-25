@@ -1,0 +1,186 @@
+data<-read.csv("C:\\Users\\kriti\\OneDrive\\Desktop\\Data Noobs\\NY Economic Incentives.csv")
+str(data)
+
+#outliers model
+outlier_data <-read.csv(file.choose())
+
+#check for outliers
+quantile1 <- quantile(outlier_data$Total.State.Awards, 0.25)
+quantile3<- quantile(outlier_data$Total.State.Awards, 0.75)
+IQR <- quantile3 - quantile1
+outlierdata_lower_bound <- quantile1 - 1.5 * IQR
+outlierdata_upper_bound <- quantile3 + 1.5 * IQR
+
+# Remove outliers
+outlier_data <- outlier_data[outlier_data$Total.State.Awards >= outlierdata_lower_bound & outlier_data$Total.State.Awards <= outlierdata_upper_bound, ]
+
+#check for regression assumptions after outliers are removed
+log_variables2 <- log(Total.State.Awards+1) ~ log(Disbursements.to.Date+1) + factor(Region) + factor(Industry) +factor(Program.Type)
+regression_log2 <-lm(log_variables2,data=outlier_data)
+summary(regression_log2)
+
+
+plot(regression)
+par(mfrow=c(2,2))
+plot(regression)
+par(mfrow = c(1,1))
+
+#regression analysis
+library(car)
+
+#recode categorical variables to dummy variables
+dummy_variables <- Total.State.Awards ~ Disbursements.to.Date + factor(Region) + factor(Industry) +factor(Program.Type)
+log_variables <- log(Total.State.Awards+1) ~ log(Disbursements.to.Date+1) + factor(Region) + factor(Industry) +factor(Program.Type)
+
+#model 1 - before transformation
+regression <- lm(dummy_variables, data = data)
+summary(regression)
+
+#model 2 - after transformation using log()
+regression_log <-lm(log_variables,data=data)
+summary(regression_log)
+
+#correlation between total state awards and disbursements
+cor(data$Total.State.Awards, data$Disbursements.to.Date)
+
+
+#checking OLS Assumptions 
+#Right Variables: assume that we use the right variables
+
+#Linear in the parameters: yes
+
+#Homoscedasticity - no violation, scale - location plot partial violation
+#Influential outliers - no influential outliers based on the Residuals vs. Leverage plot 
+#Normally distribution errors: no violation Q-Q Residuals line is flat
+
+#Independent errors: Residuals vs. Leverage no violation, data is withing Cook's distance lines
+
+#check for multicollinearity - no violation vif is less than 4
+
+vif(regression)
+
+library(stargazer)
+regression$coefficients <- regression$coefficients / 1000000 #divide by 1000000 to avoid large numbers 
+regression$residuals <- regression$residuals / 1000000
+regression$fitted.values <- regression$fitted.values / 1000000
+stargazer(regression, type = "text")
+
+#check for violation of assumptions plots
+plot(regression)
+par(mfrow=c(2,2))
+plot(regression)
+par(mfrow = c(1,1))
+
+#quantitative analysis
+library(summarytools)
+library(dplyr)
+data |> select(Total.State.Awards, Disbursements.to.Date) |>
+  descr()
+
+#qualitative analysis
+freq(data$Program)
+freq(data$Industry)
+freq(data$Region)
+
+#F^2 test 
+0.02036/(1-0.02036) # F^2 = 0.207 Region, Program, Industry, and Disbursement Awards have a moderate effect on Total State Awards.
+
+#power analysis
+install.packages("pwr")
+library(pwr)
+pwr.f2.test(v=44439, u=20, f2 = 0.0207, sig.level = 0.1, power = NULL) 
+
+#Analysis Graphs 
+
+#Relationship between Total State Awards vs Region and Industry 
+install.packages("ggplot2")
+library(ggplot2)
+ggplot(data, aes(x =Industry, y = Total.State.Awards/1000000, fill = Region)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "State Awards by Industry and Program",
+       x = "Industry",
+       y = "Total Agency Benefits Awarded (in millions)") +
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+library(ggplot2)
+#Relationship between Program Type and Total state awards  in millions
+
+ggplot(data, aes(x = Program.Type, y = Total.State.Awards/1000000)) +
+  geom_bar(stat = "identity", fill = "blue") +
+  xlab("Program Type") +
+  ylab("Total State Awards") +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1))
+
+# SCATTERPLOT Relationship between Disbursements.to.Date  and Total state awards in millions 
+ggplot(data, aes(x = log((Disbursements.to.Date/1000000)+1), y = log((Total.State.Awards/1000000)+1), color = Region)) +
+  geom_point(size = 3) +
+  title("Disbursements.to.Date  VS Total state awards(millions) ")+
+  xlab("Disbursements to Date") +
+  ylab("Total State Awards") +  
+  theme_minimal() +
+  theme(plot.title = element_text(hjust = 0.5))
+
+# Hypothesis Testing to check is enough funds were allocated to minority/Women related programs 
+minority_business_data <- subset(data, Program.Type == "Minority/Women related Programs")
+# Specifying threshold to 718060255.3 since that is the mean of our data set
+threshold <- 718060255.3
+
+
+t_test_result <- t.test(minority_business_data$Total.State.Awards, mu = threshold, alternative = "less")
+cat("One-sample t-test results:\n")
+cat("Sample mean:", mean(minority_business_data$Total.State.Awards), "\n")
+cat("Test statistic:", t_test_result$statistic, "\n")
+cat("P-value:", t_test_result$p.value, "\n")
+
+# Checking the significance level ( alpha = 0.01) 
+alpha <- 0.01
+if (t_test_result$p.value < alpha) {
+  cat("Reject the null hypothesis: There is evidence that the average Total State Awards for Minority/Women related programs is less than the threshold.\n")
+} else {
+  cat("Fail to reject the null hypothesis: There is not enough evidence that the average Total State Awards for Minority business programs is less than the threshold.\n")
+}
+
+sum(is.na(small_business_data$Total.State.Awards))
+
+
+# Hypothesis Testing to check if enough funds were allocated to Small Businesses
+
+small_business_data <- subset(data, Program.Type == "Small Business")
+sample <- small_business_data$Total.State.Awards
+
+
+population_mean <- 18770.60 
+population_sd <- 4824156
+
+# Significance level (alpha)
+alpha <- 0.01
+
+# Calculate the sample mean and standard error
+sample_mean <- mean(sample)
+sample_size <- length(sample)
+standard_error <- population_sd / sqrt(sample_size)
+
+# Calculate the z-score
+z_score <- (sample_mean - population_mean) / standard_error
+
+# Calculate the critical value for a two-tailed test (e.g., for alpha = 0.01)
+critical_value <- qnorm(1 - alpha/2)
+
+# Perform the z-test and check if it's statistically significant
+p_value <- 2 * (1 - pnorm(abs(z_score))
+                
+                # Print results
+                cat("Sample Mean:", sample_mean, "\n")
+                cat("Z-Score:", z_score, "\n")
+                cat("Critical Value:", critical_value, "\n")
+                cat("P-Value:", p_value, "\n")
+                
+                
+                if (abs(z_score) > critical_value) {
+                  cat("Reject the null hypothesis: There is evidence that the average Total State Awards for Small Business-related programs is significantly less than the threshold.\n")
+                } else {
+                  cat("Fail to reject the null hypothesis: There is not enough evidence that the average Total State Awards for Small Business programs is significantly less than the threshold.\n")
+                }
+                
+                

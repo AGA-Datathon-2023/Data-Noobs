@@ -164,6 +164,8 @@ ggplot2: The "ggplot2" library is used for creating data visualizations and grap
 
 pwr: The "pwr" library is used for power analysis and hypothesis testing.
 
+stargazer: The "stargazer" library is used to create presentation quality tables
+
 # **Conclusion**
 
 This analysis confirms that public awards are not evenly spread among industries, regions, and programs. We recommend further analysis into the allocation strategies in New York to promote economic diversity. Specifically, adding a variable to measure the job creation impact of funded programs by race and sex, will help the Department of State in New York to prioritize sectors, that they may not be currently well represented, with the most job-creating potential and long-term boost of the economy. 

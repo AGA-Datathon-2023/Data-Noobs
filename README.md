@@ -78,7 +78,7 @@ Linearity holds reasonably well, as the red line is close to the dashed line. We
 
 
 - Bar Plot
-Barplot.png
+![Barplot](https://raw.githubusercontent.com/AGA-Datathon-2023/Data-Noobs/main/Barplot.png)
 
 Economic activity is most active in the southwest region which is expected as New York City is more densely populated compared to the rest of the state. Public Administration programs receive the most funidng in the southwest and the rest of the regions.
 

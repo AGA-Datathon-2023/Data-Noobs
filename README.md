@@ -106,9 +106,13 @@ New York's budget is allocated mostly in programs related to development, employ
 
 <img width="295" alt="Qualitative Summary" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/3630d420-3292-4ca2-b985-cd415e6525b2">
 
-- Regression Summary
+- Regression Summary - Before Log Transformation
 
 ![image](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/1745e96b-a4e0-4109-937a-ea9ed93b2bc4)
+
+- Regression Summary - After Log Transformation
+
+![image](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/13e9532f-0deb-4c24-99e3-87b17919e9f4)
 
 
 # **Results & Interpretations**

@@ -53,8 +53,8 @@ Apart from simple regression we also performed regression on the normalised data
 # **Data Viasualizations**
 
 - Scatterplot
-
-There is weak correlation betweeen them as the data points are not closely grouped.
+  
+<img width="904" alt="Scatterplot" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/5a10d233-a5f1-4567-8512-47b698903a39">
 
 ![standardized residuals and leverage scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/90f92091-0146-40f3-937c-ce464728b757)
 
@@ -81,7 +81,7 @@ Linearity holds reasonably well, as the red line is close to the dashed line. We
 <img width="901" alt="Barplot" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/35e1851f-f3e6-4795-892d-619bbc1d494a">
 
 
-Economic activity is most active in the southwest region which is expected as New York City is more densely populated compared to the rest of the state. Public Administration programs receive the most funidng in the southwest and the rest of the regions.
+<img width="903" alt="Barplot2" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/b04d0721-2ba2-401f-9542-c55994d43edc">
 
 - Presentation Quality Tables (quantitative & qualitative variables)
 

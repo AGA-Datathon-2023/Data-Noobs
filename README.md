@@ -135,6 +135,23 @@ Supporting small businesses in New York is critical for economic growth and job 
 
 
 # **Development Tools and Library**
+R: The code is written in the R programming language, which is a statistical computing and graphics software.
+SDKs (Software Development Kits):
+
+No specific SDKs are mentioned in the code.
+APIs (Application Programming Interfaces):
+
+No external APIs are used in the code.
+Assets:
+
+The code reads data from external CSV files, such as "NY Economic Incentives.csv" and "outlier_data," which are considered as assets for the analysis.
+Libraries:
+
+car: The "car" library is used for regression analysis and checking for multicollinearity.
+summarytools: The "summarytools" library is used for quantitative analysis and data summarization.
+dplyr: The "dplyr" library is used for data manipulation.
+ggplot2: The "ggplot2" library is used for creating data visualizations and graphs.
+pwr: The "pwr" library is used for power analysis and hypothesis testing.
 
 # **Conclusion**
 

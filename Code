@@ -1,30 +1,6 @@
 data<-read.csv("NY Economic Incentives.csv")
 str(data)
 
-#outliers model
-outlier_data <-read.csv(file.choose())
-
-#check for outliers
-quantile1 <- quantile(outlier_data$Total.State.Awards, 0.25)
-quantile3<- quantile(outlier_data$Total.State.Awards, 0.75)
-IQR <- quantile3 - quantile1
-outlierdata_lower_bound <- quantile1 - 1.5 * IQR
-outlierdata_upper_bound <- quantile3 + 1.5 * IQR
-
-# Remove outliers
-outlier_data <- outlier_data[outlier_data$Total.State.Awards >= outlierdata_lower_bound & outlier_data$Total.State.Awards <= outlierdata_upper_bound, ]
-
-#check for regression assumptions after outliers are removed
-log_variables2 <- log(Total.State.Awards+1) ~ log(Disbursements.to.Date+1) + factor(Region) + factor(Industry) +factor(Program.Type)
-regression_log2 <-lm(log_variables2,data=outlier_data)
-summary(regression_log2)
-
-
-plot(regression)
-par(mfrow=c(2,2))
-plot(regression)
-par(mfrow = c(1,1))
-
 #regression analysis
 library(car)
 

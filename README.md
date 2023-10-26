@@ -13,6 +13,7 @@ I'm Kritika Goyal, an MS in Analytics candidate at American University, compleme
   
 Ms Analytics student at Kogod, with a background in consulting. Has worked in the Rohingya context in Bangladesh and has worked as a researcher before starting masters. 
 - Aatsend Lkhagvadorj, MS Analytics at American University, (202) 812-0280
+
 Aatsend Lkhagvadorj is a highly motivated and dedicated professional currently pursuing a Master of Science in Analytics at American University. With four years of distinguished experience in International Development projects along with ones by the ADB and the USAID.  
 
 # **Topic**

@@ -89,7 +89,7 @@ The southwest region of New York exhibits greater economic activity compared to 
 
 New York's budget is allocated mostly in programs related to development, employment, innovation/education.
 
-- Presentation Quality Tables (quantitative & qualitative variables)
+- Quantitative & Qualitative Summary Tables
 
 <img width="623" alt="QuantitativeSummary" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/1fc789f3-167e-4f0a-a7d1-1c59329d3834">
 

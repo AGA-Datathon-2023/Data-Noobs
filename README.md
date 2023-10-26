@@ -47,7 +47,7 @@ Tax Programs.
 - Multiple Regression Analysis (MLR)
 - Power Analysis
 - Hypothesis Testing
-- 
+  
 Apart from simple regression we also performed regression on the normalised dataset, cleaned dataset(Without any outliers) and a dataset focussed only on Southwest region (since that region appeared to be the centre of fund allocation from initial analysis) We then compared all these results and found that The Normalized Data Model provides the best overall fit and explains a significant portion of the variance in the dependent variable, indicating that transforming the data can improve the model's performance. We also drilled deeper and performed a similar analysis just for the southwest region and got a deeper understanding of how various variables and conditions affect the allocation of state awards and how the funds reach the grassroots levels. 
 
 # **Data Viasualizations**

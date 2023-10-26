@@ -85,11 +85,13 @@ Linearity holds reasonably well, as the red line is close to the dashed line. We
 
 
 - Bar Plot
-<img width="901" alt="Barplot" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/35e1851f-f3e6-4795-892d-619bbc1d494a">
+<img width="433" alt="image" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/6d361cee-b5c1-43c4-9f3e-fd6020ae0cb5">
+
 
 The southwest region of New York exhibits greater economic activity compared to the rest of the state. Statewide, the majority of the funds are allocated to public administration programs, including funding for real estate development. This allocation is expected, given New York's status as a home to major corporations and its dense population, resulting in continuous statewide development. Only in the case of education, it can be observed that Northwest region receives the highest amount of awards.
 
-<img width="903" alt="Barplot2" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/b04d0721-2ba2-401f-9542-c55994d43edc">
+<img width="436" alt="image" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/dbf7c2ad-15cb-49f4-94fe-153e8572355c">
+
 
 New York's budget is allocated mostly in programs related to development, employment, innovation/education.
 

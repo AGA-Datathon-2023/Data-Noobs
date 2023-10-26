@@ -5,6 +5,7 @@
 - Elina Paraschou, MS Analytics at American University, +1 (901) 728-8543
 - Kritika Goyal, MS Analytics at American University, +1 (202) 790-2039
 - Nabila Nishat Raisa,  MS Analytics at American University, +1 (202) 699-4162
+  Ms Analytics student at Kogod, with a background in consulting. Has worked in the Rohingya context in Bangladesh and loves working with small businesses. 
 - Aatsend Lkhagvadorj, MS Analytics at American University, +976 8908 9440
 
 # **Topic**

@@ -56,6 +56,9 @@ Apart from simple regression we also performed regression on the normalised data
   
 <img width="904" alt="Scatterplot" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/5a10d233-a5f1-4567-8512-47b698903a39">
 
+Data are closely packed together, for every increase in disbursements to date, there is an increase in total state awards.
+
+
 ![standardized residuals and leverage scatter plot](https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148115960/90f92091-0146-40f3-937c-ce464728b757)
 
 
@@ -80,8 +83,11 @@ Linearity holds reasonably well, as the red line is close to the dashed line. We
 - Bar Plot
 <img width="901" alt="Barplot" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/35e1851f-f3e6-4795-892d-619bbc1d494a">
 
+The southwest region of New York exhibits greater economic activity compared to the rest of the state. Statewide, the majority of the funds are allocated to public administration programs, including funding for real estate development. This allocation is expected, given New York's status as a home to major corporations and its dense population, resulting in continuous statewide development.
 
 <img width="903" alt="Barplot2" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/b04d0721-2ba2-401f-9542-c55994d43edc">
+
+New York's budget is allocated mostly in programs related to development, employment, innovation/education.
 
 - Presentation Quality Tables (quantitative & qualitative variables)
 

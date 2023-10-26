@@ -25,7 +25,7 @@ cor(data$Total.State.Awards, data$Disbursements.to.Date)
 
 #Linear in the parameters: yes
 
-#Homoscedasticity - no violation, scale - location plot partial violation
+#Homoscedasticity - no violation, scale - location plot no violation
 #Influential outliers - no influential outliers based on the Residuals vs. Leverage plot 
 #Normally distribution errors: no violation Q-Q Residuals line is flat
 
@@ -62,7 +62,6 @@ freq(data$Region)
 0.02036/(1-0.02036) # F^2 = 0.207 Region, Program, Industry, and Disbursement Awards have a moderate effect on Total State Awards.
 
 #power analysis
-install.packages("pwr")
 library(pwr)
 pwr.f2.test(v=44439, u=20, f2 = 0.0207, sig.level = 0.1, power = NULL) 
 #Regression for southwest region
@@ -97,7 +96,6 @@ stargazer(models, title = "Regression Model Comparison", type = "text",
 #Analysis Graphs 
 
 #Relationship between Total State Awards vs Region and Industry 
-install.packages("ggplot2")
 library(ggplot2)
 ggplot(data, aes(x =Industry, y = Total.State.Awards/1000000, fill = Region)) +
   geom_bar(stat = "identity", position = "dodge") +

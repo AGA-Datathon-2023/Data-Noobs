@@ -2,11 +2,14 @@
 
 # **Team Members**
 
-- Elina Paraschou, MS Analytics at American University, +1 (901) 728-8543
-- Kritika Goyal, MS Analytics at American University, +1 (202) 790-2039
+- Elina Paraschou, MS Analytics at American University, (901) 728-8543
+
+Recent Rhodes College graduate with a B.A in Business. I worked for one year at St. Jude Children's Research Hospital/ALSAC in the Finance team. I am currently pursuing my MSc in Business Analytics. 
+
+- Kritika Goyal, MS Analytics at American University, (202) 790-2039
   
 I'm Kritika Goyal, an MS in Analytics candidate at American University, complemented by advanced data science training from IIIT Hyderabad. With three years at Deloitte working with the Digital and Analytics team, I'm deeply passionate about data, machine learning, and digitalization. As a proactive problem-solver and lifelong learner
-- Nabila Nishat Raisa,  MS Analytics at American University, +1 (202) 699-4162
+- Nabila Nishat Raisa,  MS Analytics at American University,(202) 699-4162
   
 Ms Analytics student at Kogod, with a background in consulting. Has worked in the Rohingya context in Bangladesh and has worked as a researcher before starting masters. 
 - Aatsend Lkhagvadorj, MS Analytics at American University, +976 8908 9440

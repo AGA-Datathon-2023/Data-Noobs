@@ -4,8 +4,11 @@
 
 - Elina Paraschou, MS Analytics at American University, +1 (901) 728-8543
 - Kritika Goyal, MS Analytics at American University, +1 (202) 790-2039
+  
+I'm Kritika Goyal, an MS in Analytics candidate at American University, complemented by advanced data science training from IIIT Hyderabad. With three years at Deloitte working with the Digital and Analytics team, I'm deeply passionate about data, machine learning, and digitalization. As a proactive problem-solver and lifelong learner
 - Nabila Nishat Raisa,  MS Analytics at American University, +1 (202) 699-4162
-  Ms Analytics student at Kogod, with a background in consulting. Has worked in the Rohingya context in Bangladesh and loves working with small businesses. 
+  
+Ms Analytics student at Kogod, with a background in consulting. Has worked in the Rohingya context in Bangladesh and loves working with small businesses. 
 - Aatsend Lkhagvadorj, MS Analytics at American University, +976 8908 9440
 
 # **Topic**

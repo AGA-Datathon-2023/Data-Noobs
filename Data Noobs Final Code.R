@@ -89,6 +89,35 @@ freq(data$Region)
 install.packages("pwr")
 library(pwr)
 pwr.f2.test(v=44439, u=20, f2 = 0.0207, sig.level = 0.1, power = NULL) 
+#Regression for southwest region
+# Subset the data for the "Southwest" region
+southwest_data <- subset(data, Region == "Southwest")
+
+# Regression analysis
+dummy_variables_swlog <- log(Total.State.Awards+1) ~ log(Disbursements.to.Date+1) + factor(Industry) + factor(Program.Type)
+
+regression_swlog <- lm(dummy_variables_swlog, data = southwest_data)
+summary(regression_swlog)
+
+# Correlation between Total.State.Awards and Disbursements.to.Date
+cor(southwest_data$Total.State.Awards, southwest_data$Disbursements.to.Date)
+
+#Comparing the different regressions performed 
+# 1 - Normalized data using log 
+# 2 - Raw data 
+# 3 - Normalized data only focussing on southwest region
+
+
+# Set the names for the models
+model_names <- c("Normaised (with log)", "Normal", "Southwest Region")
+
+
+models <- list(regression_log2, regression, regression_swlog)
+
+# Create a table comparing the regression models
+stargazer(models, title = "Regression Model Comparison", type = "text", 
+          column.labels = model_names)
+
 
 #Analysis Graphs 
 

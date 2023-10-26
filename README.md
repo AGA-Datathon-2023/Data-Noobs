@@ -134,7 +134,7 @@ In our analysis we found that the most economic activity takes place in the Sout
 Supporting small businesses in New York is critical for economic growth and job creation. With 2.3 million small businesses employing 4.1 million people, they play a significant role in the state's economy. However, it's crucial to ensure that these businesses provide equal opportunities for all, especially women and minorities. The regression results, particularly the negative coefficient for "Small Business," suggest that additional efforts may be needed to direct funding in a way that effectively supports women's economic empowerment within the small business sector.
 
 
-# **development tools and library**
+# **Development Tools and Library**
 
 # **Conclusion**
 

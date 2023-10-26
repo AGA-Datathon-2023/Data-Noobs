@@ -91,6 +91,16 @@ New York's budget is allocated mostly in programs related to development, employ
 
 - Presentation Quality Tables (quantitative & qualitative variables)
 
+<img width="623" alt="QuantitativeSummary" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/1fc789f3-167e-4f0a-a7d1-1c59329d3834">
+
+<img width="295" alt="Qualitative Summary" src="https://github.com/AGA-Datathon-2023/Data-Noobs/assets/148002149/3630d420-3292-4ca2-b985-cd415e6525b2">
+
+- Regression Summary
+
+
+
+
+
 
 # **Results & Interpretations**
 
